@@ -44,6 +44,7 @@ const Navbar = styled.div`
   display: flex;
   align-items: center;
   padding: 0 36px;
+  overflow-x: hidden;
 `
 
 const Logo = styled.img`
@@ -87,7 +88,7 @@ margin-left: 25px;
     
     &:hover {
       span:after {
-        transition: .3s;
+        transition: 250ms;
         transform: scaleX(1);
         opacity: 1;
       }
